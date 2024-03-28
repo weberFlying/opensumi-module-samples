@@ -26,6 +26,8 @@ import { CustomContextMenuModule } from 'modules/custom-context-menu/browser';
 // import { DefaultLayout } from '@opensumi/ide-core-browser/lib/components';
 import { CustomViewModule } from 'modules/custom-view/browser';
 import { CustomMonacoEditorServicesSampleModule } from 'modules/editor-monaco-component/browser';
+import "./custom-token";
+
 
 renderApp({
   modules: [

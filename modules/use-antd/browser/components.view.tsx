@@ -15,7 +15,7 @@ export const AntdComponentsSampleView = (...params) => {
   return (
     <div className={styles.components_wrap} ref={ref}>
       <ConfigProvider prefixCls="sumi_antd" getPopupContainer={() => ref.current}>
-        <h1 className={styles.title}>Button</h1>
+        <h1 className={styles.title} style={{ color: 'red' }}>Button</h1>
         <Tooltip title="search">
           <Button type="primary" shape="circle" icon={<SearchOutlined />} />
         </Tooltip>
